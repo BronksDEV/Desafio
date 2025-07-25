@@ -1,0 +1,23 @@
+/* Fonte e smoothing */
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7fafc;
+  color: #2d3748;
+}
+
+/* Container centralizado (caso queira reforçar) */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Card de post padrão */
+.post-card img {
+  transition: transform .3s;
+}
+.post-card:hover img {
+  transform: scale(1.05);
+}
