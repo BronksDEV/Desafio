@@ -1,6 +1,6 @@
  Implementação de Backend 
 
- Da forma mais pratica seria usar metodos postrs nas funções principais, da section, que são: 
+ Da forma mais pratica seria usar metodos posts nas funções principais, da section, que são: 
  - id
 - título
 - resumo
@@ -10,17 +10,17 @@
 - data
 
  Algo assim:
-- GET /api/posts      
-- GET /api/posts/1     
-- POST /api/posts     
+- GET /api/posts     > Para todos os Posts 
+- GET /api/posts/1     > Para um único Post 
+- POST /api/posts     > Para fazer uma nova publicação. 
 
 - O JS faz fetch('/api/posts') > recebe JSON > mostra na página
 
-No fluxo simplificado seria mais ou menos isso 
+No fluxo explicando de forma simplificada seria mais ou menos isso.
 
 1 - Página carrega
 2 - JS pede /api/posts
 3 - Server retorna lista
 4 - JS exibe posts
 
-Poderiamos usar SQlite ou arquivo JSON. 
+Poderiamos usar SQlite ou um arquivo JSON nesse caso. 
