@@ -5,6 +5,8 @@ Como este projeto foi feito:
 2 - Estilo com Tailwind CSS usando  o CDN, aplicando as classes do Tailwind diretamente no HTML. 
 
 3 - JavaScript puro
+
+
   . Mock data: um array postsData com objetos que simulam os posts.
 
   
