@@ -7,14 +7,14 @@ body {
   color: #2d3748;
 }
 
-/* Container centralizado (caso queira reforçar) */
+/* Container centralizado*/
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Card de post padrão */
+/* Card de post */
 .post-card img {
   transition: transform .3s;
 }
